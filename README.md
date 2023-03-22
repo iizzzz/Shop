@@ -37,7 +37,7 @@
 
 ## 💡 도메인 모델과 테이블 설계
 
-![image-20230323002939148](images\JPA_domain.png)
+![image-20230323002939148](./images\JPA_domain.png)
 
 
 
@@ -57,7 +57,7 @@
 
 ## 💡 엔티티 분석
 
-![image-20230323003126918](images\JPA_Entity.png)
+![image-20230323003126918](./images\JPA_Entity.png)
 
 <br>
 
@@ -99,7 +99,7 @@
 
 ## 💡 테이블 분석
 
-![image-20230323003849312](images\JPA_Table.png)
+![image-20230323003849312](./images\JPA_Table.png)
 
 <br>
 
