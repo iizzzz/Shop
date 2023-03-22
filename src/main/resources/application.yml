@@ -15,8 +15,9 @@ spring:
     properties:
       hibernate:
         format_sql: true # SQL Pretty Print
+    open-in-view: false # OSIV 옵션 Off (성능)
 
-# H2 Settings
+  # H2 Settings
   h2:
     console:
       enabled: true
