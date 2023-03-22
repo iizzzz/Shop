@@ -9,6 +9,10 @@
 
 <br>
 
+Global Fetch 전략은 Lazy, OSIV옵션은 False로 설정하고 진행한다.
+
+<br>
+
 **회원 기능**
 
 - 회원 등록
