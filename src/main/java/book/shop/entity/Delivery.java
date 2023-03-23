@@ -15,7 +15,7 @@ public class Delivery {
     private Long id;
 
     // 배송과 주문은 1:1 관계이다
-    @OneToOne(mappedBy = "delivery")
+    @OneToOne(mappedBy = "delivery", fetch = FetchType.LAZY)
     @Setter
     private Order order;
 
