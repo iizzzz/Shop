@@ -29,7 +29,7 @@ public class Category {
     private List<Item> items = new ArrayList<>();
 
     // 카테고리의 계층 구조를 위한 Self 양방향 연관관계 매핑
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "parent_id")
     @Setter
     private Category parent;
