@@ -23,7 +23,7 @@ public class Order {
     // 주문은 배송과 1:1 관계이다
     // 1:1 관계에서 Access가 더 많은 쪽을 키의 주인으로 지정했음
     // 주문을 볼때 배송정보가 무조건 필요하니 FetchType은 즉시 전략을 사용한다
-    @OneToOne(fetch = FetchType.LAZY)
+    @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "delivery_id")
     private Delivery delivery;
 
